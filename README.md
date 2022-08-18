@@ -90,7 +90,7 @@ To contribute to this project please follow these instructions:-
 6. add the jsdoc comments to your js code (if you added new code) then run jsdoc to generate the new documentation file and delete the old one. **any undocumented work will not be added**
 7. add a brief of your contribution along with your name to the corresponding section below.
 
-# Contribute
+# Contributions
 
 [(Back to top)](#table-of-contents)
 
@@ -141,9 +141,12 @@ SOFTWARE.
 Let's make it an image because by now you have realised that multimedia in images == cool(*please notice the subtle programming joke). -->
 
 Leave a star in GitHub, and hit me up on my socials if you liked the project (_and maybe have a job for me_)
-[Eyad on LinkidIn](https://www.linkedin.com/in/eyad-alsherif-741177216/)
-[Eyad on Facebook](https://www.facebook.com/Eyad1Alsherif)
-[Eyad on Instagram](https://www.instagram.com/eyadooo_76/)
+[Eyad on LinkidIn](https://www.linkedin.com/in/eyad-alsherif-741177216/)  
+
+[Eyad on Facebook](https://www.facebook.com/Eyad1Alsherif)  
+
+[Eyad on Instagram](https://www.instagram.com/eyadooo_76/)  
+
 
 <!-- Add the footer here -->
 
