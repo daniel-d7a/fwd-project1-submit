@@ -10,6 +10,11 @@
 
 
 /* ---- Base Rules ---- */
+
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     background: rgb(136,203,171);
     background: linear-gradient(0deg, rgba(136,203,171,1) 0%, rgba(0,13,60,1) 100%);
@@ -24,6 +29,7 @@ h1 {
     font-family: 'Fira Sans', sans-serif;
     font-size: 3em;
     margin: 2em 1rem;
+    padding-top: 2em;
 }
 
 @media only screen and (min-width: 35em){
@@ -80,12 +86,44 @@ section {
     font-weight: bold;
     text-decoration: none;
     color: #000;
+    cursor: pointer;
 }
 
 .navbar__menu .menu__link:hover {
     background: #333;
     color: #fff;
     transition: ease 0.3s all;
+}
+
+#active__link{
+    background: rgb(9, 28, 98);
+    color: rgb(255, 255, 255);
+    transition: ease 0.3s all;
+
+}
+
+/* Button Styles*/
+.back-to-top{
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    padding: 1em;
+    /* border: 3px solid #000; */
+    border: none;
+    border-radius: 10px;
+    font-family: inherit;
+    position: fixed;
+    margin: 2em;
+    bottom: -100%;
+    right: 0;
+    z-index: 10;
+    transition: all 0.5s ease;
+    cursor: pointer;
+
+}
+
+.arrow-icon i{
+    transition: all 0.5s ease;
+    cursor: pointer;
 }
 
 /* Header Styles */
@@ -95,6 +133,7 @@ section {
     top: 0;
     width: 100%;
     z-index: 5;
+    transition: all 0.6s ease;
 }
 
 /* Footer Styles */
