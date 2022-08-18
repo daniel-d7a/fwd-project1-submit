@@ -140,7 +140,8 @@ SOFTWARE.
 <!-- Let's also add a footer because I love footers and also you **can** use this to convey important info.
 Let's make it an image because by now you have realised that multimedia in images == cool(*please notice the subtle programming joke). -->
 
-Leave a star in GitHub, and hit me up on my socials if you liked the project (_and maybe have a job for me_)
+Leave a star in GitHub, and hit me up on my socials if you liked the project (_and maybe have a job for me_)  
+
 [Eyad on LinkidIn](https://www.linkedin.com/in/eyad-alsherif-741177216/)  
 
 [Eyad on Facebook](https://www.facebook.com/Eyad1Alsherif)  
