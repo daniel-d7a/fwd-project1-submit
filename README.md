@@ -1,6 +1,6 @@
 <!-- Add banner here -->
 
-![project start](../../cover%20photo.png)
+![project start](./cover%20photo.png)
 
 # Project Title
 
@@ -36,7 +36,7 @@ I use [**Shields IO**](https://shields.io/) for making badges. It is a simple an
 
 # Demo-Preview
 
-![project demo](../../demo.mp4)
+![project demo](./demo.mp4)
 
 <!-- After you have written about your project, it is a good idea to have a demo/preview(**video/gif/screenshots** are good options) of your project so that people can know what to expect in your project. You could also add the demo in the previous section with the product description.
 Here is a random GIF as a placeholder.
