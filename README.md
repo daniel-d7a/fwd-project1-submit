@@ -1,7 +1,5 @@
 <!-- Add banner here -->
 
-![project start](./cover%20photo.png)
-
 # Project Title
 
 Landing page project
