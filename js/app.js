@@ -81,9 +81,17 @@ function linkActive() {
  */
 function createListItem(section) {
   const li = document.createElement("li");
-  li.innerHTML = `<a class="menu__link" href="#${section.getAttribute("id")}">${
-    section.dataset.nav
-  }</a>`;
+  li.innerHTML = `<a class="menu__link" data-section="${section.getAttribute(
+    "id"
+  )}">${section.dataset.nav}</a>`;
+
+  li.addEventListener("click", () => {
+    section.scrollIntoView({
+      behavior: "smooth",
+      block: "end",
+      inline: "nearest",
+    });
+  });
   navbar.append(li);
 }
 
@@ -96,7 +104,7 @@ function addClassToVisibleSection(section) {
   if (isVisible(section)) {
     section.classList.add("your-active-class");
     const link = document.querySelector(
-      `a[href = "#${section.getAttribute("id")}"]`
+      `a[data-section = "${section.getAttribute("id")}"]`
     );
 
     linkClosure(link)();
